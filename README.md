@@ -48,8 +48,9 @@ The dataset used in this project is the **2023 Medicare Physician & Other Practi
 - **Key Metrics**:
   - Total Medicare Payments
   - Payment Per Beneficiary
-  - Payment Per Service
+  - Payment Per Provider
   - Provider Count
+  - Provider Type
   - Geographic Distribution
 
 ---
@@ -73,32 +74,35 @@ The dataset used in this project is the **2023 Medicare Physician & Other Practi
 
 ### **4. Comparative Analysis**
 - Compare performance metrics across provider types or states.
-- Identify correlations between key metrics (e.g., payments and services).
+- Identify correlations between key metrics (e.g. payments and services).
 - Highlight outliers and efficiency patterns for benchmarking.
 
 ---
 
 ## 🖥️ How to Run the Project
 
-### **1. Clone the Repository**
+### **1. Download the Data**
+Using the dataset link above, download the file and load into a folder called 'data'.
+
+### **2. Clone the Repository**
 ```bash
 git clone https://github.com/jshchng/medicare-fraud-analysis.git
 cd medicare-fraud-analysis
 ```
 
-### **2. Create Virtual Environment and Install Dependencies**
+### **3. Create Virtual Environment and Install Dependencies**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### **3. Load the Data**
+### **4. Load the Data**
 ```bash
 python scripts/load_data.py
 ```
 
-### **4. Launch the Dashboard**
+### **5. Launch the Dashboard**
 ```bash
 python dashboard.py
 ```
