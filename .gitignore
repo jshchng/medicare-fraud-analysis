@@ -1,0 +1,15 @@
+# .gitignore
+*.db
+*.csv
+*.log
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+.DS_Store
+assets/*.css
+assets/*.js

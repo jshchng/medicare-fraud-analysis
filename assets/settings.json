@@ -1,0 +1,26 @@
+{
+    "title": "Medicare Provider Analysis Dashboard",
+    "description": "Analyze patterns in healthcare utilization, spending, and provider demographics",
+    "theme": {
+        "primary_color": "#004b87",
+        "secondary_color": "#00376e",
+        "accent_color": "#f5f7fa",
+        "text_color": "#333333"
+    },
+    "features": {
+        "provider_analysis": true,
+        "geographic_analysis": true,
+        "risk_analysis": true,
+        "comparative_analysis": true,
+        "export_data": true
+    },
+    "default_views": {
+        "provider_type": "All",
+        "state": "All",
+        "metric": "total_medicare_payments",
+        "visualization": "map"
+    },
+    "data_refresh": {
+        "last_updated": "2025-05-12 18:03:59"
+    }
+}
